@@ -1,0 +1,115 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 2.5em;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	margin: auto;
+}
+
+.btn {
+	border: 1px solid gray;
+	box-shadow: 10px;
+	padding: 30px;
+	margin-top: 20px;
+	-moz-box-shadow: 4px 4px 4px gray;
+	-ms-box-shadow: 4px 4px 4px gray;
+	-webkit-box-shadow: 4px 4px 4px gray;
+	-o-box-shadow: 4px 4px 4px gray;
+	box-shadow: 4px 4px 4px gray;
+}
+
+.controls {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.result {
+	border: 1px solid gray;
+	padding: 30px;
+	height: auto;
+	margin-top: 10px;
+	-moz-box-shadow: 4px 4px 4px gray;
+	-ms-box-shadow: 4px 4px 4px gray;
+	-webkit-box-shadow: 4px 4px 4px gray;
+	-o-box-shadow: 4px 4px 4px gray;
+	box-shadow: 4px 4px 4px gray;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.healthbar {
+	width: 100%;
+	background-color: #eee;
+	margin: auto;
+	color: white;
+	transition: width 500ms;
+}
+
+.btn-green {
+	background-color: greenyellow;
+	border: 1px solid gray;
+	border-radius: 3px;
+	margin-right: 15px;
+	cursor: pointer;
+	padding: 10px;
+}
+
+.btn-red {
+	background-color: crimson;
+	border: 1px solid gray;
+	border-radius: 3px;
+	margin-right: 15px;
+	cursor: pointer;
+	padding: 10px;
+}
+
+.btn-orange {
+	background-color: orange;
+	border: 1px solid gray;
+	border-radius: 3px;
+	margin-right: 15px;
+	cursor: pointer;
+	padding: 10px;
+}
+
+.btn-white {
+	background-color: white;
+	border: 1px solid gray;
+	border-radius: 3px;
+	cursor: pointer;
+	padding: 10px;
+}
+
+.log {
+	width: 100%;
+}
+
+.log ul {
+	list-style: none;
+	font-weight: bold;
+	text-transform: uppercase;
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.log ul li {
+	margin: 5px 45px 5px 9px;
+	width: 100%;
+}
+
+.log ul .player-turn {
+	color: blue;
+	background-color: #e4e8ff;
+}
+
+.log ul .monster-turn {
+	color: red;
+	background-color: #ffc0c1;
+}
